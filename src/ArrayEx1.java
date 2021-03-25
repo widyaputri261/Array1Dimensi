@@ -14,7 +14,17 @@ public class ArrayEx1 {
         int[] even = new int[5];
         
         int[] score = new int[9];
-        byte[] values = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+        byte[] values = new byte[10];
+        values[0] = 1;
+        values[1] = 1;
+        values[2] = 1;
+        values[3] = 1;
+        values[4] = 1;
+        values[5] = 1;
+        values[6] = 1;
+        values[7] = 1;
+        values[8] = 1;
+        values[9] = 1;
         
         long[] primes = new long[20];
         primes[0] = 2;
